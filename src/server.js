@@ -82,6 +82,9 @@ controller.hears([''], ['direct_message', 'direct_mention', 'mention'], (bot, me
   bot.reply(message, 'Hmm, I did not catch that. Please type a cuisine you want to eat.');
 });
 
+controller.on('outgoing_webhook', (bot, message) => {
+  bot.replyPublic(message, 'yeah yeah');
+});
 
 // prepare webhook
 // for now we won't use this but feel free to look up slack webhooks
