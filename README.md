@@ -1,9 +1,5 @@
-# starter express app template
+# Extra Credit Short Assignment 10
+## By Milan Chuttani
+## June 1, 2018
 
-* node with babel
-* expressjs
-* airbnb eslint rules
-
-Procfile set up to run on [heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app)
-
-
+The short assignment creates a slackbot called milan_bot in the Dartmouth CS-52 workspace. The bot responds with the highest rated restaurant in a given cuisine on yelp.
