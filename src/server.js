@@ -97,6 +97,6 @@ controller.setupWebserver(process.env.PORT || 3001, (err, webserver) => {
 // START THE SERVER
 // =============================================================================
 const port = process.env.PORT || 9090;
-app.listen(port);
+// app.listen(port);
 
 console.log(`listening on: ${port}`);
