@@ -78,6 +78,10 @@ controller.hears(['hello', 'hi', 'howdy'], ['direct_message', 'direct_mention', 
   });
 });
 
+controller.hears(['What is there in Hanover?'], ['direct_message', 'direct_mention', 'mention'], (bot, message) => {
+  bot.reply(message, 'Hanover has all the finest cuisines! There are italian, american, chinese, thai, sushi and caribbean restaurants here.');
+});
+
 controller.hears([''], ['direct_message', 'direct_mention', 'mention'], (bot, message) => {
   bot.reply(message, 'Hmm, I did not catch that. Please type a cuisine you want to eat.');
 });
