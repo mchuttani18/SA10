@@ -87,7 +87,7 @@ controller.hears([''], ['direct_message', 'direct_mention', 'mention'], (bot, me
 });
 
 controller.on('wake up', (bot, message) => {
-  bot.replyPublic(message, 'ughhh fine');
+  bot.replyPublic(message, 'ughhh fine im up');
 });
 
 // prepare webhook
