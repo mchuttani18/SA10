@@ -86,8 +86,8 @@ controller.hears([''], ['direct_message', 'direct_mention', 'mention'], (bot, me
   bot.reply(message, 'Hmm, I did not catch that. Please type a cuisine you want to eat.');
 });
 
-controller.on('outgoing_webhook', (bot, message) => {
-  bot.replyPublic(message, 'yeah yeah');
+controller.on('wake up', (bot, message) => {
+  bot.replyPublic(message, 'ughhh fine');
 });
 
 // prepare webhook
